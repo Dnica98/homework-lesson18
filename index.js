@@ -31,7 +31,9 @@
 // const lista2 =['str6','str4','str8','str7','str5'];
 
 // function addFirstKElem(lista1, lista2, K) {
-//     if(!lista1.every(item=> typeof item === 'string') || !lista2.every(item => typeof item === 'string')) {
+//     const l1 = !lista1.every(item => typeof item === 'string');
+//     const l2 = !lista2.every(item => typeof item === 'string');
+//     if( l1 === true || l2 === true) {
 //         return 'Verificati listele sa contina doar elemente de tip string';
 //     }
     
@@ -51,7 +53,9 @@
 // const lista2 =['str6','str4','str8','str7','str5'];
 
 // function addFirstKElem(lista1, lista2, K) {
-//     if(!lista1.every(item=> typeof item === 'string') || !lista2.every(item => typeof item === 'string')) {
+//     const l1 = !lista1.every(item => typeof item === 'string');
+//     const l2 = !lista2.every(item => typeof item === 'string');
+//     if( l1 === true || l2 === true) {
 //         return 'Verificati listele sa contina doar elemente de tip string';
 //     }
     
@@ -74,7 +78,9 @@
 // const lista2 =['str6','str4','str8','str7','str5'];
 
 // function addFirstKElem(lista1, lista2, K) {
-//     if(!lista1.every(item=> typeof item === 'string') || !lista2.every(item => typeof item === 'string')) {
+//     const l1 = !lista1.every(item => typeof item === 'string');
+//     const l2 = !lista2.every(item => typeof item === 'string');
+//     if( l1 === true || l2 === true) {
 //         return 'Verificati listele sa contina doar elemente de tip string';
 //     }
     
@@ -127,24 +133,26 @@
 // sorteaza(list,'DSC')
 
 
-const User = {
-    name: 'Bobic',
-    age: 20,
-    city: 'L.A.',
-    mail: 'bobic20@email.com'
-};
+// const User = {
+//     name: 'Bobic',
+//     age: 20,
+//     city: 'L.A.',
+//     mail: 'bobic20@email.com'
+// };
 
-const {name, age, ...restDetails} = User;
+// const {name, age, ...restDetails} = User;
 
-console.log('Name:',name)
-console.log('Age:', age)
-console.log(restDetails)
+// console.log('Name:',name)
+// console.log('Age:', age)
+// console.log(restDetails)
 
-const lista =[1,2,3,4,5];
+// const lista =[1,2,3,4,5];
 
-const [first, second, third, ...other] = lista;
+// const [first, second, third, ...other] = lista;
 
-console.log('first',first)
-console.log('second',second)
-console.log('third',third)
-console.log('other',other)
+// console.log('first',first)
+// console.log('second',second)
+// console.log('third',third)
+// console.log('other',other)
+
+
